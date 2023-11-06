@@ -2,8 +2,13 @@ import './App.css';
 import { useCallback } from "react";
 import MainHome from "./components/MainHome";
 import AboutUs from "./components/AboutUs";
+import Events from  "./components/Events";
+//import Gallery from "./components/Gallery";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Gallery1 from './components/Gallery1';
+//import Gallery1 from './components/Gallery1';
+
 
 function App() {
   const particlesInit = useCallback(async engine => {
@@ -88,7 +93,10 @@ function App() {
         }}
       />
       <MainHome />
-      <AboutUs />
+      <AboutUs /> 
+      <Events/> 
+      <Gallery1/>
+  
     </>
   );
 }
