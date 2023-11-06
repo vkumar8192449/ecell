@@ -6,6 +6,8 @@ import Events from  "./components/Events";
 //import Gallery from "./components/Gallery";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Gallery1 from './components/Gallery1';
+//import Gallery1 from './components/Gallery1';
 
 
 function App() {
@@ -93,7 +95,8 @@ function App() {
       <MainHome />
       <AboutUs /> 
       <Events/> 
-     
+      <Gallery1/>
+  
     </>
   );
 }
